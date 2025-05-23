@@ -1,38 +1,314 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.all{
+  width: 100%;
+  margin: auto;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  border: 1px solid white;
+  background-color: #0F0F0F;
+  padding: 20px 20px;
+  gap: 30px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: grey;
+
+}
+li {
+  list-style: none;
+
+}
+.Navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 380px;
+
+}
+.nav-ul{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.nav-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.nav-li{
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+
+/* gray */
+color: #969696;
+
+
+}
+.titleS{
+  width: 1400px;
+}
+.coll-box-text{
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+padding: 10px 15px;
+align-items: center;
+justify-content: center;
+
+/* light-gray */
+color: #D0D0D0;
+
+border: 1px solid #000000;
+width: 180px;
+
+}
+.coll-hr{
+  /* Line 2 */
+margin: auto;
+
+/* white */
+border: 1px solid #FFFFFF;
+width: 200px;
+
+}
+.coll-title{
+
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+margin: auto;
+/* white */
+color: #FFFFFF;
+margin: 20px 20px;
+
+
+}
+.coll-box-time{
+  background-color: #242424;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.collection-Allbox{
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.collection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+}
+
+
+.collection-left{
+  width: 620px;
+
+
+}
+.collection-left{
+  width: 570px;
+
+
+}
+.RightImg{
+  width: 700px;
+  height: 600px;
+
+}
+
+
+.New-Box-Card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.New-Title{
+
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* white */
+color: #FFFFFF;
+
+
+}
+.New-hr{
+  margin: auto;
+
+/* white */
+border: 1px solid #FFFFFF;
+width: 400px;
+}
+.New-Box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 100px;
+}
+.brends-title{
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* white */
+color: #FFFFFF;
+
+
+}
+.brends-hr{
+    margin: auto;
+
+/* white */
+border: 1px solid #FFFFFF;
+width: 400px;
+}
+
+.brends-box-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 110px;
+  margin-top: 20px;
+}
+.brends-box{
+  margin-top:50px;
+  margin: auto;
+
+  height: 250px;
+
+}
+.right-btn{
+  /* посмотреть коллекцию */
+
+width: 355px;
+height: 43px;
+
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+background-color: #000000;
+border-color: #ffffff;
+
+/* white */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.right-text{
+
+
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* or 21px */
+text-align: center;
+
+/* white */
+color: #FFFFFF;
+width: 400px;
+
+}
+
+.right-title-h2{
+  /* коллекция 2018 */
+
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+
+/* white */
+color: #FFFFFF;
+
+
+}
+.right-hr{
+      margin: auto;
+
+/* white */
+border: 1px solid #FFFFFF;
+width: 400px;
+}
+
+.infa-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+
+}
+.infa-left-img{
+    width: 700px;
+  height: 600px;
+}
+.infa-box-right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 68px;
+  width: 200px;
+margin-right: 200px;
+
 }
