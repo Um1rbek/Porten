@@ -312,3 +312,96 @@ width: 400px;
 margin-right: 200px;
 
 }
+
+@media (max-width: 768px) {
+  .Navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-btn {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .titleS {
+    width: 100%;
+  }
+
+  .collection {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .collection-left,
+  .RightImg,
+  .infa-left-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .collection-Allbox {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .New-Box-Card {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .brends-box-img {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .brends-box {
+    height: auto;
+  }
+
+  .infa-box {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .infa-box-right {
+    margin: 0;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .right-text {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .right-btn {
+    width: 100%;
+    max-width: 355px;
+  }
+
+  .coll-box-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .coll-hr,
+  .New-hr,
+  .brends-hr,
+  .right-hr {
+    width: 60%;
+  }
+
+  .coll-title,
+  .New-Title,
+  .brends-title,
+  .right-title-h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
