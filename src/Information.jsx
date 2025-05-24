@@ -1,7 +1,7 @@
 import imeged from './img/Rectangle 9.png'
 
 
-function Infa() {
+function Information() {
   return (
     <div className="infa-box">
 
@@ -32,4 +32,4 @@ function Infa() {
   );
 }
 
-export default Infa;
+export default Information;
